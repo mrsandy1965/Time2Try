@@ -3,7 +3,7 @@ import React from 'react';
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <div className="logo">TimeTry</div>
+      <div className="logo">Time2Try</div>
       <nav>
         <ul className="nav-menu">
           <li className="nav-item">

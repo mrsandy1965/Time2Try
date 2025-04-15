@@ -1,0 +1,12 @@
+specVersion: "v1"
+serviceId: "time2try"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "time2try-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
